@@ -12,7 +12,9 @@ document.addEventListener('DOMContentLoaded', function () {
         document.querySelector('.resultado').style.display = 'block';
 
         if (numeroAleatorio <= 4) {
-            document.getElementById('resultado-valor').innerText = "Teste";
+            document.getElementById('resultado-valor').innerText = "Parabéns, retire seu brinde!";
+        }else{
+           document.getElementById('resultado-valor').innerText = "Não foi dessa vez, Tente novamente!"; 
         }
     });
 });
