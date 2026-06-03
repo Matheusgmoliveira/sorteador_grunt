@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function () {
         if (numeroAleatorio <= 4) {
             resultado.innerText = "Parabéns, retire seu brinde!";
         } else {
-            resultado.innerText = "Que pena, não foi dessa vez!";
+            resultado.innerText = "Não foi dessa vez, tente novamente!";
         }
     });
 
